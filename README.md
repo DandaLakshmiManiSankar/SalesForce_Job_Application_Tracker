@@ -100,6 +100,10 @@ Let's see how a job seeker named Jane would use this app at a high level
 - After changing a job application's status, a new task is automatically created
 - While scanning job applications, she notices that stale job applications have the status automatically updated to closed and the notes field indicates that the job application was closed by an automated process
 
+## Demo Video
+
+[Demo Video](https://drive.google.com/file/d/1Q5L--9JJdmh7cHo7SG3Lzg_uCA3-SYEe/view?usp=sharing)
+
 ## Data Model
 
 ![Entity Diagram](force-app/main/default/staticresources/Images/CloudCodeAcademyCapstoneEntityDiagram.png)
