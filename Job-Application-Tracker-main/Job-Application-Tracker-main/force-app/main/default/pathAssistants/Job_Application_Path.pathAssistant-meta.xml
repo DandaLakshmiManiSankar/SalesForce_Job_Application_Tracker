@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Job_Application__c</entityName>
+    <fieldName>Status__c</fieldName>
+    <masterLabel>Job Application Path</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;ul&gt;&lt;li&gt;Plan your resignation if applicable&lt;/li&gt;&lt;li&gt;Take some time to relax and recharge&lt;/li&gt;&lt;li&gt;Prepare for your first day of onboarding&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Accepted</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Application_Date__c</fieldNames>
+        <fieldNames>Primary_Contact__c</fieldNames>
+        <fieldNames>Follow_Up_Date__c</fieldNames>
+        <info>&lt;ul&gt;&lt;li&gt;Reach out to the hiring manager or recruiter&lt;/li&gt;&lt;li&gt;Follow up on your application via email weekly&lt;/li&gt;&lt;li&gt;Continue identifying and saving similar job opportunities&lt;/li&gt;&lt;li&gt;Set up weekly networking calls to explore similar companies/roles&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Applied</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Primary_Contact__c</fieldNames>
+        <fieldNames>Job_Description__c</fieldNames>
+        <fieldNames>URL__c</fieldNames>
+        <info>&lt;ul&gt;&lt;li&gt;Find and research someone who works at the company and add them as a contact&lt;/li&gt;&lt;li&gt;Set up an informational interview to learn more about the role/company&lt;/li&gt;&lt;li&gt;Identify potential referrals to help get your application on the top of the pile&lt;/li&gt;&lt;li&gt;Customize your work achievements using the job description keywords&lt;/li&gt;&lt;li&gt;Submit your application on the company website if possible&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Applying</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Primary_Contact__c</fieldNames>
+        <fieldNames>Notes__c</fieldNames>
+        <info>&lt;ul&gt;&lt;li&gt;Send a follow-up email thanking the interviewer and asking for feedback&lt;/li&gt;&lt;li&gt;Review your notes and reflect on areas of improvement&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Closed</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Job_Description__c</fieldNames>
+        <fieldNames>Primary_Contact__c</fieldNames>
+        <info>&lt;ul&gt;&lt;li&gt;Prepare your blurb or “tell me about yourself” response&lt;/li&gt;&lt;li&gt;Practice answering behavioral interview questions&lt;/li&gt;&lt;li&gt;Research the company and your interviewers&lt;/li&gt;&lt;li&gt;Set up your virtual interview space and test your tech&lt;/li&gt;&lt;li&gt;Send thank you emails within 24 hours&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Interviewing</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Take_Home_Pay__c</fieldNames>
+        <fieldNames>Primary_Contact__c</fieldNames>
+        <info>&lt;ul&gt;&lt;li&gt;Research your market value and know your numbers&lt;/li&gt;&lt;li&gt;Prepare your negotiation scripts&lt;/li&gt;&lt;li&gt;Evaluate your offer and decline or accept&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Negotiating</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Job_Description__c</fieldNames>
+        <fieldNames>Job_Type__c</fieldNames>
+        <info>&lt;ul&gt;&lt;li&gt;Check if the job description aligns with your interests and values&lt;/li&gt;&lt;li&gt;Review the highlighted skills to see if the role is a good fit&lt;/li&gt;&lt;li&gt;Research the company or role and mark your excitement level&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Saved</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>__MASTER__</recordTypeName>
+</PathAssistant>

@@ -1,0 +1,1 @@
+SELECT Id, Title__c, Location__c, Snippet__c, Salary__c, Source__c, Type__c, Link__c, Company__c, Updated__c, Id__c, CreatedDate FROM Job__c ORDER BY CreatedDate ASC

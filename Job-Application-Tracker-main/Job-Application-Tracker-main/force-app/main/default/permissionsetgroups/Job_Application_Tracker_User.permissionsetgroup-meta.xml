@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Permission Set Group for Job Application Tracker User</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Job Application Tracker User</label>
+    <permissionSets>Account_Management</permissionSets>
+    <permissionSets>Apex_Class_Access_Management</permissionSets>
+    <permissionSets>Assigned_Apps_Management</permissionSets>
+    <permissionSets>Contact_Management</permissionSets>
+    <permissionSets>Custom_Metadata_Type_Management</permissionSets>
+    <permissionSets>Event_Management</permissionSets>
+    <permissionSets>External_Credential_Principal_Access_Management</permissionSets>
+    <permissionSets>Job_Application_Contact_Management</permissionSets>
+    <permissionSets>Job_Application_Management</permissionSets>
+    <permissionSets>Job_Management</permissionSets>
+    <permissionSets>Task_Management</permissionSets>
+    <permissionSets>User_External_Credential_Management</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

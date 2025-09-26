@@ -1,0 +1,87 @@
+<template>
+    <lightning-card 
+        title="Job Search" 
+        icon-name="standard:search"
+    >
+        <lightning-button 
+            label="New Search For Jobs" 
+            slot="actions" 
+            type="button" 
+            variant="brand-outline" 
+            onclick={handleSearchJob}
+        >
+        </lightning-button>
+
+        <div class="slds-var-p-horizontal_small">
+            <section class="slds-var-m-top_small">
+                <lightning-input 
+                    label="Keywords" 
+                    name="keywords" 
+                    type="text" 
+                    field-level-help="Enter job title" 
+                    onchange={handleKeywordsChange}
+                >
+                </lightning-input>
+            </section>
+
+            <section class="slds-var-m-top_small">
+                <lightning-input 
+                    label="Location" 
+                    name="location" 
+                    type="text" 
+                    field-level-help="Enter remote or the job location" 
+                    onchange={handleLocationChange}
+                >
+                </lightning-input>
+            </section>
+
+            <section class="slds-var-m-top_small">
+                <lightning-slider 
+                    label="Within How Many Miles" 
+                    name="radius" 
+                    step="5" 
+                    min="5" 
+                    max="100" 
+                    onchange={handleRadiusChange} 
+                    value={miles}
+                >
+                </lightning-slider>
+            </section>
+
+            <section class="slds-var-m-top_small">
+                <lightning-input 
+                    label="Salary" 
+                    name="salary" 
+                    type="number" 
+                    onchange={handleSalaryChange} 
+                    value={salary}
+                >
+                </lightning-input>
+            </section>
+
+            <section class="slds-var-m-top_small">
+                <lightning-input 
+                    label="Date Of Posting" 
+                    name="datecreatedfrom" 
+                    type="date" 
+                    placeholder={lastWeek} 
+                    onchange={handleDateCreatedFromChange}
+                >
+                </lightning-input>
+            </section>
+
+            <section class="slds-var-m-top_small">
+                <lightning-slider 
+                    label="Page Number" 
+                    name="page" 
+                    step="1" 
+                    min="1" 
+                    max="12" 
+                    onchange={handlePageChange} 
+                    value={page}
+                >
+                </lightning-slider>
+            </section>
+        </div>
+    </lightning-card>
+</template>

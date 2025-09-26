@@ -1,0 +1,1 @@
+SELECT Name, Status__c, Application_Date__c, Follow_Up_Date__c, Notes__c, Rating__c, Position_Title__c, Work_Model__c, Location__c, Job_Type__c, Job_Description__c, Salary__c, Take_Home_Pay__c, URL__c, Job_Id__c, Company__c, Primary_Contact__c, CreatedDate FROM Job_Application__c ORDER BY CreatedDate ASC

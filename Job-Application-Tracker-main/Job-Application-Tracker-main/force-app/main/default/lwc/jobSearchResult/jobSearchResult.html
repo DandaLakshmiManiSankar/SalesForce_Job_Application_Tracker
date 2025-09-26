@@ -1,0 +1,51 @@
+<template>
+    <lightning-card 
+        title="Job Search Results" 
+        icon-name="standard:job_profile"
+    >
+        <lightning-button 
+            label="Save As Job Applications" 
+            slot="actions" 
+            type="button" 
+            variant="brand-outline" 
+            onclick={handleUpsertJobApplicationAndDeleteJobAndRefreshRecord}
+        >
+        </lightning-button>
+
+        <lightning-button 
+            label="Clear All Results" 
+            slot="actions" 
+            type="button" 
+            variant="brand-outline" 
+            onclick={handleClearAllResultsAndRefreshRecord} 
+            class="slds-var-m-left_medium"
+        >
+        </lightning-button>
+
+        <div class="slds-var-p-horizontal_small">
+            <template lwc:if={jobs.data}>
+                <section class="datatable">
+                    <lightning-datatable 
+                        key-field="Id" 
+                        data={jobs.data} 
+                        columns={columns} 
+                        show-row-number-column 
+                        default-sort-direction={defaultSortDirection} 
+                        sorted-direction={sortDirection} 
+                        sorted-by={sortedBy} 
+                        onsort={handleSort} 
+                        onrowaction={handleRowAction} 
+                        onrowselection={handleRowSelection}
+                    >
+                    </lightning-datatable>
+                </section>
+            </template>
+
+            <template lwc:elseif={jobs.error}>
+                <section>
+                    <c-error-panel errors={jobs.error}></c-error-panel>
+                </section>
+            </template>
+        </div>
+    </lightning-card>
+</template>
