@@ -44,7 +44,7 @@ Key Recommendations 📝
 1. Clone the Job Application Tracker repository:
 
     ```
-    git clone https://github.com/ChanEddyW/Job-Application-Tracker
+    git clone https://github.com/DandaLakshmiManiSankar/SalesForce_Job_Application_Tracker.git
     cd Job-Application-Tracker
     ```
 
